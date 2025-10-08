@@ -2,10 +2,10 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        loop();
+        findMax();
   }
   
-  public static void loop(){
+  public static void findMax(){
       int[] myNum = {94,10, 20, 30, 40, 78};
       int max = 0;
       for(int i = 0; i < myNum.length; i++){
